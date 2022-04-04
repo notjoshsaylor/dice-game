@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background: aquamarine;
+}
+.container{
+    margin: 0 auto;
+    max-width: 600px;
+    height: auto;
+    text-align: center;
+    background: yellowgreen;
+    border: 2px solid black;
+    box-shadow: 2px 3px 2px;
+}
+
+.players{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 25px;
+    margin: 10px auto;
+    background: peru;
+    border: 2px solid black;
+    border-radius: 5px;
+  
+}
+
+.dice{
+    background: peru;
+    margin: 10px;
+    border: 2px solid black;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.active{
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
+
+#roll{
+    display: block;
+}
+
+#reset{
+    display: none;
+}
+
+#dbl{
+    display: block;
+}
