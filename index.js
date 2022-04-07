@@ -15,17 +15,6 @@ function resetButton() {
     rollBtn.style.display = "none";
     resetBtn.style.display = "block";
 };
-dblBtn.addEventListener("click", function(){
-    let dblchance = Math.floor(Math.random() * 10 ) +1;
-    if (dblchance % 2){
-        p1Score.textContent = p1Score * 2;
-
-    }else{
-        p1Score.textContent = 0;
-    }
-})
-     
-
 
 rollBtn.addEventListener("click", function(){
     let randomNum = Math.floor(Math.random() * 6) +1;

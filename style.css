@@ -3,7 +3,8 @@ body{
     background: aquamarine;
 }
 .container{
-    margin: 0 auto;
+
+    margin: 5em auto;
     max-width: 600px;
     height: auto;
     text-align: center;
@@ -50,6 +51,3 @@ body{
     display: none;
 }
 
-#dbl{
-    display: block;
-}
